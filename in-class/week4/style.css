@@ -1,0 +1,51 @@
+/*Make sure your stle sheet is on the same level as your html sheet OR link it correctly in the html sheet*/
+
+
+h1 {
+  font-size: 40px;
+/*style here with:
+color: red;
+*/
+}
+/* OR be more specific by taggin id first and then what part of the section after: */
+#top {
+font-family: helvetica;
+}
+#top h1{
+color: blue;
+border: solid 10px white;
+border radius: 10px;
+}
+body{
+  background-color: yellow;
+}
+section{
+  background-color: rgb(200,100,200);
+}
+/*styling a specific section: #id-name */
+#top{
+  background-color: rgb(150,150,150);
+}
+
+  ul {
+    color: green;
+    font-family: arial; /* check https://www.w3schools.com/cssref/css_websafe_fonts.asp for the default fonts you can use*/
+    font-weight: 600; /*for font weight stay between the hundreds*/
+  }
+
+  img {
+    width:30vw;
+    margin: 20px; /*adding margin to look nice */
+  }
+
+  button{
+    color: blue;
+  }
+
+  form{
+    margin-left: 20px;
+    /*
+    chnging font size relating to view width or hight of entire screen
+    font-size: 5vw;
+    font-size: 3vh; */
+  }
