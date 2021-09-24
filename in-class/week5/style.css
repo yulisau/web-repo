@@ -1,0 +1,27 @@
+body {
+  font-family: ariel;
+  font-ssize: 2vw;
+  font-weight: 100;
+  border: solid rgb(100,100,100) 1px;
+
+  p {
+    color: rgb(100,100,100);
+
+  }
+
+  .grey{
+    color: red;
+  }
+
+span{
+  color: blue;
+  font-weight: bold;
+
+}
+
+#two{
+  border: solid black 5px;
+  margin: 100 px;
+  paddng: 50 px;
+}
+}

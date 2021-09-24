@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--- Last of html lessons --->
+<html lang="en">
+<head>
+  <title>Week 4: Final HTML</title>
+</head>
+<body>
+<ul> <!--- nested listing --->
+  <li>Coffee</li>
+  <li>Tea
+    <ul>
+      <li>Black</li>
+      <li>Green</li>
+    </ul>
+  </li>
+  <li>Water</li>
+</ul>
+<a href="https://google.com"><img src="img.jpg" style="width:30vw"></a> <!--- how to make an image clickable to a site --->
+<form> <!--- only time in html where you use a line break--->
+  <!--- one type of form entry --->
+<label for="fname">First name:</label></br>
+<input type="text" name="fname"></br> <!--- remove this break to put all on same line (not recommended) --->
+<label for="lname">Last name:</label></br>
+<input type="text" name="fname"></br>
+<!--- second type of entry, radio form --->
+<input type="radio" id="coffee" name="coffee"><label for="coffee">Coffee</label></br>
+  <input type="radio" id="tea" name="tea"><label for="tea">Tea</label></br>
+  <input type="radio" id="water" name="water"><label for="water">Water</label></br>
+<!--- buttons --->
+<button id="submit">Submit</button>
+</form>
+</body>
+</html>
