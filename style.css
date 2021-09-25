@@ -1,0 +1,60 @@
+
+body{
+  background-color: #AABFAF;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+h1 {
+  font-size: 50px;
+  font-family: Georgia;
+  color: #261007;
+  text-align: center;
+}
+/*image styling referenced from: https://www.w3schools.com/css/css3_images.asp */
+  img {
+    border-radius: 8px;
+    width:40vw;
+    max-width:30%;
+    height:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#caption {
+  font-family: helvetica;
+  color: #261007;
+  text-align: center;
+}
+
+#name {
+  font-family: Georgia;
+  color: #261007;
+  text-align: center;
+}
+
+h4 {
+  font-family: Georgia;
+  color: #261007;
+}
+#firstp {
+  padding: 10px;
+  font-family: helvetica;
+  background-color: #A66B49;
+  border: solid 2px #261007;
+  border-radius: 8px;
+}
+#goals{
+  padding: 10px;
+  font-family: helvetica;
+  background-color: #A66B49;
+  border: solid 2px #261007;
+  border-radius: 8px;
+}
+
+#assignments {
+  padding: 10px;
+  font-family: helvetica;
+  background-color: #D7D7D9;
+  border: solid 2px #261007;
+  border-radius: 8px;
+}
