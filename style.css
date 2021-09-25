@@ -43,7 +43,6 @@ h4 {
   border-radius: 8px;
 }
 #goals{
-  padding: 10px;
   font-family: helvetica;
   background-color: #A66B49;
   border: solid 2px #261007;
@@ -51,7 +50,6 @@ h4 {
 }
 
 #assignments {
-  padding: 10px;
   font-family: helvetica;
   background-color: #D7D7D9;
   border: solid 2px #261007;
