@@ -24,9 +24,13 @@ h1 {
   float:left;
   width: 40vw;
   height: 350px;
-  padding: 20px;
   object-fit: cover;
   object-position: 50% 20%;
+}
+img{
+  border-radius: 8px;
+  border: solid 2px black;
+  margin:20px;
 }
 h4 {
   font-family: "Nunito";
