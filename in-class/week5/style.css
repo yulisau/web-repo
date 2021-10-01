@@ -1,27 +1,91 @@
 body {
   font-family: ariel;
-  font-ssize: 2vw;
+  font-size: 2vw;
   font-weight: 100;
-  border: solid rgb(100,100,100) 1px;
-
-  p {
-    color: rgb(100,100,100);
-
-  }
-
-  .grey{
-    color: red;
-  }
-
-span{
-  color: blue;
-  font-weight: bold;
-
 }
 
-#two{
+h1 {
+  /* background-color: blue; */
+  border: solid rgb(100,100,100) 1px;
+  /* other way to establish a border but more work
+  border-style: solid;
+  border-color: red; */
+}
+  p {
+    font-size: 20px;
+
+  }
+
+  /* last class go-over
+   #second{
+    font-weight: bold;
+  } */
+
+/*styling classes starts with a .
+good for when you're using a styling over and over again
+*/
+  .grey{
+    color: rgb(100,100,100);
+  }
+
+  .background{
+    background-color: rgb(225,225,225);
+  }
+/*Different types of targeted styling with classes:*/
+/* this impacts paragraph text color WTHIN a section class called background, in this case the first two paragraphs */
+  /* .background p{
+    color: red;
+  } */
+/* this sets default color of a paragraph within a background classed section to green, and any paragraph outside of the section with class background */
+  /* .background, p{
+    color: green;
+  } */
+/*this impacts ALL paragraphs with class background*/
+  /* p.background{
+    color: red;
+  } */
+/* used to target specific in-line styling*/
+  span{
+    color: green;
+    font-weight: bold;
+  }
+  #two{
+    color: orange;
+    font-family: cursive;
+  }
+
+hr{
+    border:solid rgb(200,90,0) 4px;
+}
+   /* #solid{
+    border:solid rgb(90,90,90) 4px;
+  }
+   #dotted{
+border: dotted rgb(90,90,90) 4px;
+  }
+   #dashed{
+border:dashed rgb(90,90,90) 4px;
+  }
+   #double{
+border:double rgb(90,90,90) 4px;
+  }
+   #ridge{
+    border:ridge rgb(90,90,90) 4px;
+  }
+ #groove{
+border:groove rgb(90,90,90) 4px;
+  } */
+
+/* #two{
   border: solid black 5px;
   margin: 100 px;
   paddng: 50 px;
 }
+
+
+/*week 5 notes
+want to change the font color, override styling:
+h1 {
+color: black !important;
+Can get messy, better used when you have a ton of lines
 }

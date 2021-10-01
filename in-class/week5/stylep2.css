@@ -1,0 +1,60 @@
+/*class 5 notes: box model
+
+Every page has a width and height
+
+Margin is the spacing between one element and another
+
+Padding is the space inside the element, what pushes something inward. (Spacing from the edge) */
+body{
+  font-family: Prompt;
+  padding: 0px;
+  margin: 0px;
+}
+h1{
+  background-color: yellow;
+  margin-left: 20px;
+  font-family: "Bebas Neue"
+
+}
+#one{
+  border: dotted black 1px;
+  background-color: tan;
+  /* padding: 50px; */
+  /* can also use vw or vh to scales in relation to the window height or width*/
+  /* padding-left: 100px;
+  padding-right: 50px;
+  padding-bottom: 1px;
+  padding-top: 30px; */
+  /* can also do
+  /* padding: top right bottom left; */
+  /* padding: 30px 0px 30px 0px; */
+}
+#two{
+  border: solid black 1px;
+  background-color: orange;
+  /* margin: 50px; */
+  /* margin-left: 10px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 5px; */
+  /* margin: top right bottom left; */
+  /* margin: 0px 30px 0px 30px; */
+  /* margin: 0; to completely get rid of margins because sections will default with a margin*/
+}
+
+#mountain{
+  width:100vw;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header{
+  height: 50vh;
+  overflow: hidden;
+  padding: 0px;
+}
+/* External fonts (API)
+grabbed from fonts.google.com
+*/
+
+/* look up positioning absolute to put text on top of images */

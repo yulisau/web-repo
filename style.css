@@ -1,57 +1,83 @@
 
+/* references from https://www.w3schools.com */
 body{
-  background-color: #AABFAF;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  background-color: #FFCCAE;
+  /* margin-left: 10vw;
+  margin-right: 10vw; */
+  color: #261007;
 }
 h1 {
-  font-size: 50px;
-  font-family: Georgia;
+  font-size: 90px;
+  font-family: "Nunito";
   color: #261007;
   text-align: center;
-}
-/*image styling referenced from: https://www.w3schools.com/css/css3_images.asp */
-  img {
-    border-radius: 8px;
-    width:40vw;
-    max-width:30%;
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-#caption{
-  color: #261007;
-  text-align: center;
-  font-family: helvetica;
+  font-weight: 900px;
+  margin-bottom: 0px;
 }
 #name {
-  font-family: Georgia;
+  font-family: "Nunito";
   color: #261007;
   text-align: center;
+  margin-top: 0px;
 }
-
+#imageinfo{
+  float:left;
+  width: 40vw;
+  height: 350px;
+  padding: 20px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
 h4 {
-  font-family: Georgia;
+  font-family: "Nunito";
   color: #261007;
+  font-weight: 900;
 }
-#firstp {
-  padding: 10px;
-  font-family: helvetica;
-  background-color: #A66B49;
-  border: solid 2px #261007;
+#aboutme {
+  float: right;
+  clear:right;
+  background-color: #E08C77;
+  border: solid 2px #7A4C41;
   border-radius: 8px;
+  margin: 10px;
+  padding: 5px 15px 5px 15px;
+  font-family: "Lora";
 }
-#goals{
-  font-family: helvetica;
-  background-color: #A66B49;
-  border: solid 2px #261007;
-  border-radius: 8px;
+ol{
+  list-style-position: inside;
 }
 
 #assignments {
-  font-family: helvetica;
-  background-color: #D7D7D9;
-  border: solid 2px #261007;
+  font-family: "Lora";
+  background-color: white;
+  border: solid 2px #7A4C41;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px;
+  clear: both;
+}
+/*Button link customization referenced from https://www.w3schools.com/css/css_link.asp */
+a:link, a:visited {
+  background-color: #77E0BE;
+  color: #7A4C41;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
   border-radius: 8px;
 }
+
+a:hover, a:active {
+  background-color: #319473;
+}
+/* a:link{
+  color: #7A4C41;
+}
+a:visited{
+  color: green;
+}
+a:hover{
+  color: black;
+} */
