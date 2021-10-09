@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--- Java lesson: internal java p 2--->
+<html lang="en">
+
+<head>
+  <title>Week 7: Quote machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans">
+</head>
+
+<body>
+  <section id="quotesection">
+    <h1 id="qtext">Welcome to the quote machine, click the button to get a quote.</h1>
+    <button id="newquote">New Quote</button>
+  </section>
+
+  <!-- flexboxes are used instead of tables. Flexboxes are horizontal/vertical box styling -->
+  <section id="flex">
+    <div class="flexitem">
+      <h2>one</h2>
+    </div>
+    <div class="flexitem">
+      <h2>two</h2>
+    </div>
+    <div class="flexitem">
+      <h2>three</h2>
+    </div>
+  </section>
+
+  <!--Internal Java is placed at the end of the body section inside script -->
+  <script>
+    // don't forget to make sure your java is connected by checking console on web page;)
+    // console.log("hello world");
+
+    // two ways to make an array , first:
+    const quotes = ["“Nothing is impossible. The word itself says ‘I’m possible!” Audrey Hepburn", "“There is nothing impossible to they who will try.”— Alexander the Great",
+      "“The bad news is time flies. The good news is you’re the pilot.”— Michael Altshuler", "“Life has got all those twists and turns. You’ve got to hold on tight and off you go.”— Nicole Kidman"
+    ];
+    let quotecount = 0;
+    //print out array in console
+    console.log(quotes[3]);
+    //quotes.length gives number of items inside array
+    console.log(quotes.length);
+
+
+    document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+    function buttonClicked() {
+      // alert("button clicked");
+      // console.log(quotes[0]);
+      console.log(quotes[quotecount]); //printing quotes on console
+      document.getElementById("qtext").innerHTML = quotes[quotecount]; //printing out the changed quote to website
+      if (quotecount >= 3) {
+        quotecount = 0;
+      } else {
+        quotecount++;
+
+      }
+    }
+  </script>
+
+</body>
+
+</html>

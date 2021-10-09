@@ -1,0 +1,89 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  color: red;
+  font-family: helvetica;
+}
+
+h1, h2{
+  font-family: "Bebas Neue";
+}
+
+h2{
+  font-size: 40px;
+}
+
+#kitty{
+  width:100vw;
+  height: 40vh;
+  overflow: hidden; /* adjusts text so it doesn't go over the image */
+  margin: 0px;
+  padding: 0px;
+}
+
+#kitty1img{
+  width:100vw;
+  position: relative; /*used to move items within a section*/
+  bottom: 100px; /* moves an image 100px up within a section, can use top, right, left for the other sides*/
+}
+
+/* Image inside of a section can also be styled as:
+#kitty img{
+width:100vw;
+}
+   */
+
+#kitty h1{
+  z-index: 1;   /*brings items forwards or backwards (like in image editting)*/
+  position: relative;
+  font-size: 7vw;
+  top: 5vh;
+  margin: 0 0 0 3vw;
+
+}
+
+
+#one, #two, #three{
+  margin-left: 3vw;
+  margin-right: 2vw; /*common to have a smaller right margin than left*/
+  margin-top: 10vw;
+}
+
+/* instead of doing sections within a section, insert divs*/
+
+button{
+  background-color: purple;
+  color: white;
+  font-family: "Bebas Neue";
+  border-radius: 10px;
+  font-size: 30px;
+  padding:10px 15px; /*top & bottom, left & right */
+  margin: 10px;
+}
+
+button:active{
+  background-color: blue;
+}
+
+button:hover{
+  border: solid black 3px;
+}
+
+/* Pay attention to link styling order! */
+a:visited{
+  color: lightgrey;
+}
+a:link{
+  color:blue;
+}
+
+a:active{
+  color:red;
+}
+a:hover{
+  font-size: 150%;
+  color: black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--- First Java lesson: internal java --->
+<html lang="en">
+<head>
+  <title>Week 6: Java intro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+</head>
+<body>
+  <section id="kitty">
+    <!-- It's easier to style an image after an H1..... so if you want to put the pic behind the header put it after h1-->
+    <h1 id="kittytext">Welcome to my Site!</h1>
+    <img alt="a cute cat" src="kitty1.jpg" id="kitty1img">
+    </section>
+<section id="one">
+  <h2>This is my <span id="first">first Section</span></h2>
+  <p>Etiam finibus luctus lobortis. In scelerisque libero vitae turpis tincidunt, at rhoncus nisl iaculis. Mauris dapibus augue at mauris rutrum lacinia. Aliquam in faucibus lacus. Vestibulum rutrum ornare tincidunt. Praesent viverra, purus eget tincidunt convallis, urna quam interdum ipsum, ut faucibus nulla arcu sit amet massa. Sed non massa a turpis tristique accumsan et eu mi. Donec vestibulum, sem in ullamcorper commodo, sem est tempus ante, ut porta dolor purus quis nibh.</p>
+  <p>Etiam finibus luctus lobortis. In scelerisque libero vitae turpis tincidunt, at rhoncus nisl iaculis. Mauris dapibus augue at mauris rutrum lacinia. Aliquam in faucibus lacus. Vestibulum rutrum ornare tincidunt. Praesent viverra, purus eget tincidunt convallis, urna quam interdum ipsum, ut faucibus nulla arcu sit amet massa. Sed non massa a turpis tristique accumsan et eu mi. Donec vestibulum, sem in ullamcorper commodo, sem est tempus ante, ut porta dolor purus quis nibh.</p>
+</section>
+<section id="two">
+  <h2>This is my <a href="https://google.com">second section</a></h2>
+  <p>Etiam finibus luctus lobortis. In scelerisque libero vitae turpis tincidunt, at rhoncus nisl iaculis. Mauris dapibus augue at mauris rutrum lacinia. Aliquam in faucibus lacus. Vestibulum rutrum ornare tincidunt. Praesent viverra, purus eget tincidunt convallis, urna quam interdum ipsum, ut faucibus nulla arcu sit amet massa. Sed non massa a turpis tristique accumsan et eu mi. Donec vestibulum, sem in ullamcorper commodo, sem est tempus ante, ut porta dolor purus quis nibh.</p>
+  <p>Etiam finibus luctus lobortis. In scelerisque libero vitae turpis tincidunt, at rhoncus nisl iaculis. Mauris dapibus augue at mauris rutrum lacinia. Aliquam in faucibus lacus. Vestibulum rutrum ornare tincidunt. Praesent viverra, purus eget tincidunt convallis, urna quam interdum ipsum, ut faucibus nulla arcu sit amet massa. Sed non massa a turpis tristique accumsan et eu mi. Donec vestibulum, sem in ullamcorper commodo, sem est tempus ante, ut porta dolor purus quis nibh.</p>
+  </section>
+  <section id="three">
+    <h2>This section contains a button</h2>
+    <button id="mybutton">Click this button</button>
+    <button id="mybutton2">Click this button</button>
+  </section>
+
+ <!--Internal Java is placed at the end of the body section inside script -->
+  <script>
+  console.log("javascript working"); //used to know if javascript is working, can be seen in inspector on website
+    // Adding an event to a button to trigger something
+    document.getElementById("mybutton").addEventListener("click",buttonOne); //list of events that can be monitored: https://www.w3schools.com/jsref/dom_obj_event.asp
+    document.getElementById("mybutton2").addEventListener("click", buttonClicked); //adding the function directly will also work
+    document.getElementById("kitty").addEventListener("click", kittyClick);
+
+function buttonClicked(){
+  alert("You pushed the second button!");
+  document.getElementById("kittytext").innerHTML = "You are not welcome!";//changing text
+
+}
+function kittyClick(){
+  alert("You clicked the kitty");
+}
+function buttonOne(){
+  alert("You pushed the button!");
+  document.getElementById("first").style.color = "red"; //style.___ is used to change the type of something, ex: style.font, style.backgroundColor, etc. (two word styling like backgroud-color is firstwordSecondword. Make sure second word is capital)
+}
+  </script>
+
+</body>
+</html>
