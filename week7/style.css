@@ -1,0 +1,40 @@
+body{
+  background-image: url('ocean2.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0px -400px;
+}
+
+#quotesection{
+  background-color: #F2F2F2;
+  margin: 30vh 20vw;
+  padding: 5vh 7vw 7vh 7vw;
+  border-radius: 8px;
+  font-family: "IM Fell English SC";
+  font-size: 20px;
+  box-shadow: 5px 10px black;
+
+}
+
+button{
+  border: solid black 1px;
+  border-radius: 8px;
+  padding: 1vh 2vw;
+  float: right;
+  display: block;
+  margin-top: -1vh;
+  margin-right: -4vw;
+  background-color: #8C281F;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 14px;
+}
+button:hover{
+  border: #F2C777 solid 1px;
+}
+
+button:active{
+  color: #F2C777;
+}

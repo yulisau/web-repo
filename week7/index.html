@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Week 7: Quote machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Open+Sans">
+</head>
+
+<body>
+  <section id="quotesection">
+    <h1 id="qtext">Welcome to the Titanic movie quote machine, click the button to get a quote.</h1>
+    <button id="newquote">New Quote</button>
+  </section>
+
+  <script>
+    const quotes = ["“A woman’s heart is a deep ocean of secrets.” — Rose",
+    "“I’ll never let go, Jack. I’ll never let go.” — Rose",
+      "“Rose, you’re no picnic, all right? You’re a spoiled little brat, even, but under that, you’re the most amazingly, astounding, wonderful girl, woman that I’ve ever known.” — Jack",
+      "“Can you exchange one life for another? A caterpillar turns into a butterfly. If a mindless insect can do it, why couldn’t I?” — Older Rose",
+      "“I figure life‘s a gift and I don’t intend on wasting it. You don’t know what hand you’re gonna get dealt next. You learn to take life as it comes at you…to make each day count.” — Jack",
+      "“Listen, Rose. You’re gonna die an old… an old lady warm in her bed, not here, not this night. Not like this, do you understand me?” — Jack",
+      "“It’s been 84 years, and I can still smell the fresh paint. The china had never been used. The sheets had never been slept in. Titanic was called the Ship of Dreams, and it was. It really was.” — Older Rose",
+      "“Promise me you’ll survive. That you won’t give up, no matter what happens. No matter how hopeless.” — Jack",
+      "“Your money can’t save you anymore than it can save me.” — First Officer Murdoch",
+      "“Jack, I want you to draw me like one of your French girls.” — Rose"
+    ];
+    let quotecount = 0;
+    //print out array in console
+    console.log(quotes[9]);
+    //quotes.length gives number of items inside array
+    console.log(quotes.length);
+
+    document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+    function buttonClicked() {
+      // alert("button clicked");
+      // console.log(quotes[0]);
+      console.log(quotes[quotecount]); //printing quotes on console
+      document.getElementById("qtext").innerHTML = quotes[quotecount]; //printing out the changed quote to website
+      if (quotecount >= 9) {
+        quotecount = 0;
+      } else {
+        quotecount++;
+
+      }
+    }
+  </script>
+
+</body>
+
+</html>
