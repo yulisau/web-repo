@@ -1,99 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <title>Self Care Menu</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC"> -->
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<section id="sidebar">
+<h2>Yuli's Self-Care Menu</h2>
+<p>organized in a weekly schedule!</p>
+</section>
+<div class="tab">
+  <button class="tablinks" onclick="openDay(event, 'Monday')">Monday</button>
+  <button class="tablinks" onclick="openDay(event, 'Tuesday')">Tuesday</button>
+  <button class="tablinks" onclick="openDay(event, 'Wednesday')">Wednesday</button>
+  <button class="tablinks" onclick="openDay(event, 'Thursday')">Thursday</button>
+  <button class="tablinks" onclick="openDay(event, 'Friday')">Friday</button>
+  <button class="tablinks" onclick="openDay(event, 'Saturday')">Saturday</button>
+  <button class="tablinks" onclick="openDay(event, 'Sunday')">Sunday</button>
+</div>
 
-  <section id="tabs">
-    <div class="day">
+<div id="Monday" class="tabcontent">
+  <img alt="cup of warm tea" src="assets/Monday.jpg" class="menuimg">
+<p class="menuitems">Here are the items lol<p>
 
-    </div>
-    <div class="day">
+</div>
 
-    </div>
-    <div class="day">
+<div id="Tuesday" class="tabcontent">
+  <p class="menuitems">Here are the items lol<p>
 
-    </div>
-    <div class="day">
+</div>
 
-    </div>
-    <div class="day">
+<div id="Wednesday" class="tabcontent">
+  <p class="menuitems">Here are the items lol<p>
 
-    </div>
-    <div class="day">
+</div>
 
-    </div>
-    <div class="day">
+<div id="Thursday" class="tabcontent">
+<h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+<div id="Friday" class="tabcontent">
+  <h3>To</h3>
+  <p>Tokyital of Japan.</p>
+</div>
 
-    </div>
+<div id="Saturday" class="tabcontent">
+  <h3>To-do</h3>
+  <p>Tokyo </p>
+</div>
 
-  </section>
-  <section id="items">
-    <!-- <div id="image">
-
-    </div> -->
-
-    <div id="monmenu" class="menu">
-      <div id="starter">
-        <h3>Breakfast</h3>
-        <h3>Clean room for 30 min</h3>
-        <h3>Class for 30 min</h3>
-        <h3>watch a movie 2.5 hrs</h3>
-      </div>
-      </div>
-
-      <div id="tuesmenu" class="menu">
-        <div id="starter">
-          <h3>Starter</h3>
-          <h4>celery root-black truffle soup</h4>
-          <h4>fig-goat cheese tart</h4>
-        </div>
-      </div>
-
-      <div id="wedmenu" class="menu">
-        <div id="starter">
-          <h3>Starter</h3>
-          <h4>fresh bacon</h4>
-          <h4>doughnut of the day</h4>
-        </div>
-        </div>
-        <div id="thursmenu" class="menu">
-          <div id="starter">
-            <h3>Starter</h3>
-            <h4>fresh bacon</h4>
-            <h4>doughnut of the day</h4>
-          </div>
-          </div>
-          <div id="frimenu" class="menu">
-            <div id="starter">
-              <h3>Starter</h3>
-              <h4>fresh bacon</h4>
-              <h4>doughnut of the day</h4>
-            </div>
-            </div>
-            <div id="satmenu" class="menu">
-              <div id="starter">
-                <h3>Starter</h3>
-                <h4>fresh bacon</h4>
-                <h4>doughnut of the day</h4>
-              </div>
-              </div>
-              <div id="sunmenu" class="menu">
-                <div id="starter">
-                  <h3>Starter</h3>
-                  <h4>fresh bacon</h4>
-                  <h4>doughnut of the day</h4>
-                </div>
-                </div>
-  </section>
+<div id="Sunday" class="tabcontent">
+  <h3>To- do !</h3>
+  <p>Tokpital of Japan.</p>
+</div>
 <script type="text/javascript" src="index.js"></script>
 </body>
-
-
 </html>
