@@ -1,26 +1,35 @@
+.tabmenu{
+  color: blue;
+  padding: 24px 20px 30px 20px;
+  border: solid 1px black;
+  justify-content: space-between;
+}
+
 .days{
   display: flex;
-  margin: 25vh 0 0 50vw;
-  flex-grow: 1;
-
+  flex-direction: row;
+  flex: 1;
+  margin: 25vh 5vw 0 40vw;
+  border: solid 1px blue;
+  justify-content: space-between;
 }
 
 a{
-  padding: 10px 10px 10px 10px;
-  font-size: 12px;
-}
-
-.tabmenu{
-  color: blue;
-  display: flex;
-  flex-grow: 1;
-  border: solid 1px black;
+  font-size: 18px;
 }
 
 .tabcontent{
-margin: 25vh 0 0 -100vw;
+margin: 100px -1px 0 -589px;
 border: solid 1px pink;
+}
 
+img{
+  height: auto;
+  width:20%;
+}
 
+#aboutme{
+margin-right: 60vw;
+  background-color: pink;
 
 }
