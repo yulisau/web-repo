@@ -1,35 +1,52 @@
+body{
+  background-color: #BDEDFF;
+}
+
+#aboutme{
+  position: absolute;
+  display: block;
+  float: left;
+  margin-left: -5vw;
+  background-color: #FFFCE3;
+  padding: 20vh 20vw 100vh 5vw;
+
+}
+p{
+  padding-left: 5vw;
+  font-size: 30px;
+}
+
 .tabmenu{
-  color: blue;
-  padding: 24px 20px 30px 20px;
+  color: purple;
+  padding: 20px 15px 20px 15px;
   border: solid 1px black;
-  justify-content: space-between;
+  font-size: 18px;
+
 }
 
 .days{
   display: flex;
   flex-direction: row;
+  position: static;
   flex: 1;
-  margin: 25vh 5vw 0 40vw;
+  margin: -5vh 5vw 0 40vw;
+  padding-top: 20vh;
   border: solid 1px blue;
-  justify-content: space-between;
-}
+  justify-content: center;
 
-a{
-  font-size: 18px;
 }
 
 .tabcontent{
-margin: 100px -1px 0 -589px;
+margin: 0 5vw 0 40vw;
+padding-bottom: 20vh;
 border: solid 1px pink;
 }
 
+
 img{
-  height: auto;
-  width:20%;
-}
-
-#aboutme{
-margin-right: 60vw;
-  background-color: pink;
-
+  display: block;
+  float: left;
+  max-height: 30vh;
+  width: auto;
+  margin: 5vh 8vw 0 5vw;
 }
