@@ -1,0 +1,63 @@
+#tabs{
+  display: flex;
+  margin: 25vh 10vw 0 10vw;
+}
+
+#items{
+  display: flex;
+  margin: 0vh 10vw 0 10vw;
+  padding-top: 50px;
+  border: 1px solid #aaa;
+  border-top: none;
+
+}
+
+/* #items{
+  margin-top: 0px !important;} /*overriding the previous margin, same as the code above*/
+
+
+.meal{
+  flex-grow: 1;
+  width: auto;
+  border: 1px solid black;
+  background-color: #EAECEF;
+}
+
+#image, .menu{
+  flex-grow:  1;
+  width: auto;
+  /* background-color: pink;
+  border: 1px solid black; */
+  max-width: 50%;
+
+}
+
+
+h2{
+  margin-top: 28px;
+  padding-bottom: 0;
+  font-size: 1.8em;
+  margin-left: 30px;
+}
+
+#dinnermenu, #brunchmenu
+{
+  display: none;
+}
+
+.active{
+  background-color: white;
+  border-bottom: none;
+
+
+}
+
+img{
+width: 80%;
+max-height: 80%;
+object-fit: cover;
+display: block;
+margin: auto;
+/* object-position: 20% 10%; */ /*changing position within container*/
+
+}

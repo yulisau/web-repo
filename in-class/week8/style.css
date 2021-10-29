@@ -1,0 +1,35 @@
+div {
+  background-color: pink;
+}
+
+#foods {
+  display: flex;
+}
+
+.options {
+  flex-grow: 1;
+  width: auto;
+  margin: 3vh;
+}
+
+img {
+  max-width: 25vw;
+  height: 30vh;
+  width: 25vw;
+  object-fit: cover;
+  /*makes the image scale down to fit, not warp/cut off   */
+  /* manually change size:
+  object-position: 0px 0px 0px 0px; */
+  padding: 10px;
+}
+
+button {
+  float: right;
+  padding: 10px 50px;
+  margin-right: 3vw;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
