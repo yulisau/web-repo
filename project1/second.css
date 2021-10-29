@@ -1,0 +1,26 @@
+.days{
+  display: flex;
+  margin: 25vh 0 0 50vw;
+  flex-grow: 1;
+
+}
+
+a{
+  padding: 10px 10px 10px 10px;
+  font-size: 12px;
+}
+
+.tabmenu{
+  color: blue;
+  display: flex;
+  flex-grow: 1;
+  border: solid 1px black;
+}
+
+.tabcontent{
+margin: 25vh 0 0 -100vw;
+border: solid 1px pink;
+
+
+
+}

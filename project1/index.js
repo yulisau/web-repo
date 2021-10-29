@@ -12,7 +12,6 @@ for(i=0;i<document.getElementsByClassName("day").length;i++){
 
   document.getElementsByClassName("day")[i].id = days[i]; //getting elements by class name and adding the id of lunch, dinner, brunch
 
-
 }
 document.getElementById('Mon').classList.toggle('active'); //having lunch active on start up
 // document.getElementById("image").innerHTML = "<img src= 'assets/" + images[0] + "' >";
@@ -21,7 +20,7 @@ function setActive(event){ //using the event target to know whether we're clicki
   // console.log('clicked');
 
 prevday = document.getElementsByClassName('active')[0].id;
-if(prevday != undefined){
+if(prevday == undefined){
   document.getElementById(prevday).classList.toggle("active");
   document.getElementById(prevday + "menu").style.display = "none"; //changing display text on the menu, blocking the previous one
 }
@@ -29,10 +28,10 @@ if(prevday != undefined){
   // console.log(event.target.innerHTML);
 
   if(event.target.tagName == "H2"){
-    // console.log("h2 clicked");//testing
+     console.log("h2 clicked");//testing
     event.target.parentNode.classList.toggle("active");
   }else{
-    // console.log('div clicked');//testing
+     console.log('div clicked');//testing
     event.target.classList.toggle("active");
   }
 
