@@ -69,7 +69,7 @@ font-size: 16px;
   border-top: none;
   background-color: #FFFCE3;
 }
-#icns{
+.fa-heart, .fa-shower, .fa-bacon, .fa-walking, .fa-film, .fa-feather, .fa-utensils, .fa-broom, .fa-book, .fa-blender, .fa-cookie-bite, .fa-gifts, .fa-birthday-cake, .fa-shopping-bag, .fa-bath, .fa-mobile-alt, .fa-biking, .fa-hiking, .fa-laptop, .fa-headphones-alt{
   color: #FF6363;
 }
 span{
