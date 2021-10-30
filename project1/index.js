@@ -1,3 +1,4 @@
+//From https://www.w3schools.com/howto/howto_js_tabs.asp
 function openDay(evt, dayName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
