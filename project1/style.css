@@ -10,6 +10,7 @@ body {
   padding: 17vh 5vw 100vh 9vw;
   margin: -20vh 0 0 -5vw;
   display: block;
+
   float: left;
 }
 h1, h3, #aboutm{
@@ -57,28 +58,31 @@ font-size: 16px;
 .tab button.active {
   background-color: white;
 }
+.inside{
 
+}
 /* Style the tab content */
 .tabcontent {
   position: relative;
   display: none;
-  height: 40vh;
+  overflow: scroll;
   margin: 0 7vw 0 42vw;
-  padding: 5vh 5vw 5vh 5vw;
+  padding: 5vh 5vw 5vh 7vw;
   border: 1px solid #ccc;
   border-top: none;
   background-color: #FFFCE3;
 }
+
 .fa-heart, .fa-shower, .fa-bacon, .fa-walking, .fa-film, .fa-feather, .fa-utensils, .fa-broom, .fa-book, .fa-blender, .fa-cookie-bite, .fa-gifts, .fa-birthday-cake, .fa-shopping-bag, .fa-bath, .fa-mobile-alt, .fa-biking, .fa-hiking, .fa-laptop, .fa-headphones-alt{
   color: #FF6363;
+  margin-right: 1.2vw;
 }
 span{
-  margin-left: 20px;
-  font-size: 30px;
+  font-size: 1.2em;
 }
 
 p{
-  font-size: 25px;
+  font-size: 1rem;
 }
 
 /* .menuitems{
