@@ -7,7 +7,7 @@ body {
 #sidebar{
   background-color: #FFFCE3;
   max-width: 30vw;
-  padding: 10vh 5vw 100vh 9vw;
+  padding: 13vh 5vw 100vh 9vw;
   margin: -20vh 0 0 -5vw;
   display: block;
 
@@ -19,10 +19,25 @@ h1, h3, #abtpage{
 h1{
   font-size: 3rem;
   font-family: 'Eczar', serif;
+  margin-bottom: -1vh;
+}
+.todo{
+  width: 15vw;
+  float:left;
+  margin: 3vh 2vw 10vh -2vw;
+  border: solid 1px #FFFCE3;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: solid .5px white;
+  border-radius: 10px;
 }
 h3{
  font-size: 20px;
- margin-top: 40vh;
+ margin-top: 1vh;
  font-family: 'Eczar';
 }
 #abtpage{
@@ -35,9 +50,11 @@ font-family:  'Nunito', sans-serif;;
 .tab {
   position: relative;
   overflow: hidden;
-  margin: 15vh 3vw 0 40vw;
+  margin: 15vh 3vw 0 43vw;
   border: 1px solid #ccc;
   background-color: #FF6363;
+  box-shadow: 10px 10px grey;
+
 }
 
 /* Style the buttons inside the tab */
@@ -51,7 +68,7 @@ font-family:  'Nunito', sans-serif;;
   cursor: pointer;
   padding: 14px 20px;
   transition: 0.3s;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: 'Nunito', sans-serif;
   color: black;
 }
@@ -70,11 +87,12 @@ font-family:  'Nunito', sans-serif;;
   position: relative;
   display: none;
   overflow: scroll;
-  margin: 0 3vw 0 40vw;
+  margin: 0 3vw 0 43vw;
   padding: 5vh 5vw 5vh 7vw;
   border: 1px solid #ccc;
   border-top: none;
   background-color: #FFFCE3;
+  box-shadow: 10px 10px grey;
 }
 
 .fa-heart, .fa-shower, .fa-bacon, .fa-walking, .fa-film, .fa-feather, .fa-utensils, .fa-broom, .fa-book, .fa-blender, .fa-cookie-bite, .fa-gifts, .fa-birthday-cake, .fa-shopping-bag, .fa-bath, .fa-mobile-alt, .fa-biking, .fa-hiking, .fa-laptop, .fa-headphones-alt{
@@ -83,12 +101,12 @@ font-family:  'Nunito', sans-serif;;
   font-size: 2rem;
 }
 span{
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-family:  'Nunito', sans-serif;;
 }
 
 p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: helvetica;
 }
 
