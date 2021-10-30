@@ -1,58 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <title>Self Care Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/359e5120b5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-<section id="sidebar">
-<h2>Yuli's Self-Care Menu</h2>
-<p>organized in a weekly schedule!</p>
-</section>
-<div class="tab">
-  <button class="tablinks" onclick="openDay(event, 'Monday')">Monday</button>
-  <button class="tablinks" onclick="openDay(event, 'Tuesday')">Tuesday</button>
-  <button class="tablinks" onclick="openDay(event, 'Wednesday')">Wednesday</button>
-  <button class="tablinks" onclick="openDay(event, 'Thursday')">Thursday</button>
-  <button class="tablinks" onclick="openDay(event, 'Friday')">Friday</button>
-  <button class="tablinks" onclick="openDay(event, 'Saturday')">Saturday</button>
-  <button class="tablinks" onclick="openDay(event, 'Sunday')">Sunday</button>
-</div>
+  <section id="sidebar">
+    <h1>Self-Care Menu</h1>
+    <h3>By Yuliza Saucedo</h3>
+    <p id="aboutme">Click on a day of the week to see what's on the menu.</p>
+  </section>
+  <div class="tab">
+    <button class="tablinks" onclick="openDay(event, 'Monday')">Monday</button>
+    <button class="tablinks" onclick="openDay(event, 'Tuesday')">Tuesday</button>
+    <button class="tablinks" onclick="openDay(event, 'Wednesday')">Wednesday</button>
+    <button class="tablinks" onclick="openDay(event, 'Thursday')">Thursday</button>
+    <button class="tablinks" onclick="openDay(event, 'Friday')">Friday</button>
+    <button class="tablinks" onclick="openDay(event, 'Saturday')">Saturday</button>
+    <button class="tablinks" onclick="openDay(event, 'Sunday')">Sunday</button>
+  </div>
 
-<div id="Monday" class="tabcontent">
-  <img alt="cup of warm tea" src="assets/Monday.jpg" class="menuimg">
-<p class="menuitems">Here are the items lol<p>
+  <div id="Monday" class="tabcontent">
 
-</div>
+    <dl class="menuitems">
+      <p><i class="fas fa-heart" id="icns"></i><span>Meditate</span> - 1 hour</p>
+      <p><i class="fas fa-shower" id="icns"></i><span>Quick Shower</span> - 10 min</p>
+      <p><i class="fas fa-bacon" id="icns"></i><span>Breakfast</span> - 1 hour</p>
+      <p><i class="fas fa-walking" id="icns"></i><span>Take a Walk</span> - 1 hour</p>
+      <p><i class="fas fa-film" id="icns"></i><span>Watch a Movie</span> - 2.5 hour</p>
+    </dl>
 
-<div id="Tuesday" class="tabcontent">
-  <p class="menuitems">Here are the items lol<p>
 
-</div>
 
-<div id="Wednesday" class="tabcontent">
-  <p class="menuitems">Here are the items lol<p>
+  </div>
 
-</div>
+  <div id="Tuesday" class="tabcontent">
+    <p><i class="fas fa-bacon" id="icns"></i><span>Breakfast</span> - 1 hour</p>
+    <p><i class="fas fa-broom" id="icns"></i><span>Clean Room</span> - 1 hour</p>
+    <p><i class="fas fa-feather" id="icns"></i><span>Journal</span> - 1 hour</p>
+    <p><i class="fas fa-utensils" id="icns"></i><span>Eat Lunch</span> - 30 min</p>
+  </div>
 
-<div id="Thursday" class="tabcontent">
-<h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
-<div id="Friday" class="tabcontent">
-  <h3>To</h3>
-  <p>Tokyital of Japan.</p>
-</div>
+  <div id="Wednesday" class="tabcontent">
+    <p><i class="fas fa-shower" id="icns"></i><span>Shower</span> - 45 min</p>
+    <p><i class="fas fa-blender" id="icns"></i><span>Cook a new Recipe</span> - 1 hour</p>
+    <p><i class="fas fa-walking" id="icns"></i><span>Take a Walk</span> - 1 hour</p>
+    <p><i class="fas fa-book" id="icns"></i><span>Read a Book</span> - 2 hours</p>
+  </div>
 
-<div id="Saturday" class="tabcontent">
-  <h3>To-do</h3>
-  <p>Tokyo </p>
-</div>
+  <div id="Thursday" class="tabcontent">
+    <p><i class="fas fa-headphones-alt" id="icns"></i><span>Listen to my Favorite Artist</span> - 1 hour</p>
+    <p><i class="fas fa-biking" id="icns"></i> <span>Bike Ride</span> - 1.5 hour</p>
+    <p><i class="fas fa-broom" id="icns"></i> <span>Clean my Room</span> - 30 min</p>
+    <p><i class="fas fa-cookie-bite" id="icns"></i><span>Enjoy a Snack</span> - 20 min</p>
+  </div>
+  <div id="Friday" class="tabcontent">
+    <p><i class="fas fa-gifts" id="icns"></i> <span>Pack and Send Gifts</span> - 2 hours</p>
+    <p><i class="fas fa-bacon" id="icns"></i> <span>Breakfast</span> - 1 hour</p>
+    <p><i class="fas fa-mobile-alt" id="icns"></i><span>Call a Friend</span> - 3 hours</p>
+    <p><i class="fas fa-blender" id="icns"></i><span>Make Dinner</span> - 1 hour</p>
+    <p><i class="fas fa-birthday-cake" id="icns"></i><span>Bake a Cake</span> - 45 min</p>
+  </div>
 
-<div id="Sunday" class="tabcontent">
-  <h3>To- do !</h3>
-  <p>Tokpital of Japan.</p>
-</div>
-<script type="text/javascript" src="index.js"></script>
+  <div id="Saturday" class="tabcontent">
+
+    <p><i class="fas fa-shopping-bag" id="icns"></i><span>Go Shopping</span> - 4 hour</p>
+    <p><i class="fas fa-utensils" id="icns"></i><span>Family Lunch at the Park</span> - 2 hour</p>
+    <p><i class="fas fa-bath" id="icns"></i> <span>Relaxing Bath</span> - 1 hour</p>
+    <p><i class="fas fa-film" id="icns"></i> <span>Watch a Movie</span> - 2.5 hour</p>
+  </div>
+
+  <div id="Sunday" class="tabcontent">
+
+    <p><i class="fas fa-heart" id="icns"></i> <span>Meditate</span> - 1 hour</p>
+    <p><i class="fas fa-hiking" id="icns"></i><span>Go Hiking</span> - 3 hour</p>
+    <p><i class="fas fa-utensils" id="icns"></i><span>Eat Lunch out</span> - 1 hour</p>
+    <p><i class="fas fa-shower" id="icns"></i><span>Shower</span> - 30 min</p>
+    <p><i class="fas fa-laptop" id="icns"></i><span>Watch Netflix</span> - ?</p>
+  </div>
+  <script type="text/javascript" src="index.js"></script>
 </body>
+
 </html>
