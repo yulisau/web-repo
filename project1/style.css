@@ -28,7 +28,7 @@ h3{
 #abtpage{
   margin-top: -1vh;
 font-size: 1rem;
-font-family: nunito;
+font-family:  'Nunito', sans-serif;;
 }
 
 /* Style the tab */
@@ -52,7 +52,7 @@ font-family: nunito;
   padding: 14px 20px;
   transition: 0.3s;
   font-size: 1.2rem;
-  font-family: nunito;
+  font-family: 'Nunito', sans-serif;
   color: black;
 }
 
@@ -84,7 +84,7 @@ font-family: nunito;
 }
 span{
   font-size: 2rem;
-  font-family: nunito;
+  font-family:  'Nunito', sans-serif;;
 }
 
 p{
