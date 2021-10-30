@@ -32,7 +32,7 @@ font-size: 16px;
 .tab {
   position: relative;
   overflow: hidden;
-  margin: 15vh 7vw 0 42vw;
+  margin: 15vh 3vw 0 40vw;
   border: 1px solid #ccc;
   background-color: #FF6363;
 }
@@ -44,9 +44,9 @@ font-size: 16px;
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 19.3px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 1.2rem;
 }
 
 /* Change background color of buttons on hover */
@@ -58,15 +58,12 @@ font-size: 16px;
 .tab button.active {
   background-color: white;
 }
-.inside{
-
-}
 /* Style the tab content */
 .tabcontent {
   position: relative;
   display: none;
   overflow: scroll;
-  margin: 0 7vw 0 42vw;
+  margin: 0 3vw 0 40vw;
   padding: 5vh 5vw 5vh 7vw;
   border: 1px solid #ccc;
   border-top: none;
@@ -75,19 +72,14 @@ font-size: 16px;
 
 .fa-heart, .fa-shower, .fa-bacon, .fa-walking, .fa-film, .fa-feather, .fa-utensils, .fa-broom, .fa-book, .fa-blender, .fa-cookie-bite, .fa-gifts, .fa-birthday-cake, .fa-shopping-bag, .fa-bath, .fa-mobile-alt, .fa-biking, .fa-hiking, .fa-laptop, .fa-headphones-alt{
   color: #FF6363;
-  margin-right: 1.2vw;
+  margin-right:1.2vw;
 }
 span{
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 p{
   font-size: 1rem;
 }
-
-/* .menuitems{
-  padding: 5vh 5vw 0 2vw;
-
-} */
 
 </style>
