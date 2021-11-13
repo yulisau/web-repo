@@ -1,12 +1,21 @@
 @media screen and (min-width:700px){
 
   h1{
-    font-size: 60px;
+    font-size: 70px;
   }
   #gallery{
   align-items: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+  }
+  p{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 40px;
+  }
+  h3{
+    font-size: 30px;
   }
 }
 @media screen and (max-width:701px){
@@ -33,9 +42,14 @@ h2, h3{
 .gallerypic{
     border-radius: 5px;
   width: 100%;
-  height:100%;
+  height:80%;
   object-fit: cover;
 }
+
+#pic3{
+  object-position: 40% 30%;
+}
+
 
 #info{
   background-color: #F2D4AE;
@@ -44,10 +58,9 @@ h2, h3{
   display:flex;
   flex-direction:column;
   height: calc(100%-50px);
-  margin-top: 20px;
   border-radius: 5px;
 }
 p{
   font-family: "Josefin Sans";
-  font-weight: 100;
+  font-weight: lighter;
 }
