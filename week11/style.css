@@ -1,0 +1,53 @@
+@media screen and (min-width:700px){
+
+  h1{
+    font-size: 60px;
+  }
+  #gallery{
+  align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width:701px){
+  h1{
+    font-size: 40px;
+  }
+  #gallery{
+  align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+body{
+  background-color: #D99B66;
+}
+h1{
+  text-align: center;
+  font-family: "Josefin Sans";
+}
+h2, h3{
+  font-family: "Josefin Sans";
+}
+
+.gallerypic{
+    border-radius: 5px;
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+#info{
+  background-color: #F2D4AE;
+  padding-left: 30px;
+  padding-right: 30px;
+  display:flex;
+  flex-direction:column;
+  height: calc(100%-50px);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+p{
+  font-family: "Josefin Sans";
+  font-weight: 100;
+}
