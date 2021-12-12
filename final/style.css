@@ -1,0 +1,106 @@
+
+/* most references from https://www.w3schools.com */
+
+/* nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0D0D0D;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #979DA6;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #979DA6;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Home page body*/
+body{
+  background-color: white;
+  color: black;
+}
+h1{
+  font-family: "Comfortaa";
+  color: black;
+  text-align: center;
+  font-size: 72px;
+  margin-bottom: -30px;
+}
+h2{
+  font-size: 64px;
+}
+#name {
+  font-family: "Comfortaa";
+  color: black;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 23px;
+}
+/* box shadow effect referenced from https://css-tricks.com/almanac/properties/b/box-shadow/ */
+#imageinfo{
+  float:left;
+  width: 40vw;
+  height: 350px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  box-shadow: 0.5rem 0.5rem #979DA6, -0.5rem -0.5rem #D9D9D9 ;
+}
+img{
+  margin:20px 20px 0px 20px;
+}
+h4 {
+  font-family: "Comfortaa";
+  color: black;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: -10px;
+}
+#aboutme {
+  float: right;
+  clear:right;
+  margin: 5px;
+  padding: 5px 15px 25px 15px;
+  font-family: "Lora";
+  font-size: 18px;
+}
+ol{
+  list-style-position: inside;
+}

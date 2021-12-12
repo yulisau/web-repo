@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- First Java lesson: internal java -->
+<html lang="en">
+
+<head>
+  <title>Style changer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+</head>
+<body>
+  <h1>Welcome to my Site!</h1>
+  <section id="one">
+  <h2>First Section</h2>
+<p>Curabitur efficitur augue id metus pellentesque, non ullamcorper lorem maximus. Sed nisi purus, tristique sed tristique ut, aliquet eget quam. Praesent ultricies ante lectus, id scelerisque sem iaculis sit amet. Quisque molestie viverra diam, in elementum tortor ullamcorper eget. Nam sodales ut tortor ac mattis. Suspendisse scelerisque mauris est, non congue ligula imperdiet quis. Duis non commodo lorem, nec sodales risus. Vestibulum venenatis vulputate dui, sit amet bibendum risus tristique at. Sed et massa in diam facilisis tincidunt et et odio. Nam tempus porttitor nisi vitae egestas. Morbi ac urna sit amet orci fermentum aliquam. Aenean mollis ipsum non massa mattis bibendum. Nullam neque purus, venenatis non varius eget, malesuada id velit. Phasellus vitae velit suscipit, condimentum orci id, consectetur arcu. Sed nec tellus diam.</p>
+  </section>
+
+  <section id="two">
+<h2>Second Section</h2>
+<p>Curabitur efficitur augue id metus pellentesque, non ullamcorper lorem maximus. Sed nisi purus, tristique sed tristique ut, aliquet eget quam. Praesent ultricies ante lectus, id scelerisque sem iaculis sit amet. Quisque molestie viverra diam, in elementum tortor ullamcorper eget. Nam sodales ut tortor ac mattis. Suspendisse scelerisque mauris est, non congue ligula imperdiet quis. Duis non commodo lorem, nec sodales risus. Vestibulum venenatis vulputate dui, sit amet bibendum risus tristique at. Sed et massa in diam facilisis tincidunt et et odio. Nam tempus porttitor nisi vitae egestas. Morbi ac urna sit amet orci fermentum aliquam. Aenean mollis ipsum non massa mattis bibendum. Nullam neque purus, venenatis non varius eget, malesuada id velit. Phasellus vitae velit suscipit, condimentum orci id, consectetur arcu. Sed nec tellus diam.</p>
+  </section>
+
+  <section id="three">
+<h2 id="third">Third Section</h2>
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+<li>Four</li>
+  </ul>
+  </section>
+
+  <section id="bsection">
+<h2>Add Style</h2>
+<button id="buttonOne">Add color</button>
+<button id="buttonTwo">Add borders</button>
+  </section>
+
+<script>
+document.getElementById("buttonOne").addEventListener("click", bOne);
+document.getElementById("buttonTwo").addEventListener("click", bTwo);
+
+function bOne(){
+  document.getElementById("one").style.backgroundColor = "#F28650";
+  document.getElementById("two").style.backgroundColor = "#F28650";
+  document.getElementById("one").style.color = "white";
+  document.getElementById("two").style.color = "white";
+
+}
+
+function bTwo(){
+  document.getElementById("one").style.borderRadius = "5px";
+  document.getElementById("two").style.borderRadius = "5px";
+  document.getElementById("one").style.border = "black solid 2px";
+  document.getElementById("two").style.border = "black solid 2px";
+
+}
+
+  </script>
+
+
+  <!-- <script>
+  console.log("javascript working"); //used to know if javascript is working, can be seen in inspector on website
+    document.getElementById("mybutton").addEventListener("click",buttonOne); //list of events that can be monitored: https://www.w3schools.com/jsref/dom_obj_event.asp
+    document.getElementById("mybutton2").addEventListener("click", buttonTwo); //adding the function directly will also work
+
+    function buttonOne(){
+      alert("You pushed the button!");
+      document.getElementById("first").style.color = "red"; //style.___ is used to change the type of something, ex: style.font, style.backgroundColor, etc. (two word styling like backgroud-color is firstwordSecondword. Make sure second word is capital)
+    }
+function buttonTwo(){
+  alert("You pushed the second button!");
+  document.getElementById("kittytext").innerHTML = "You are not welcome!";//changing text
+
+}
+
+  </script> -->
+</body>
+
+</html>

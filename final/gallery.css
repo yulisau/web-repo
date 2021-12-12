@@ -1,0 +1,119 @@
+
+/* references from https://www.w3schools.com */
+
+/* nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0D0D0D;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #979DA6;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #979DA6;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*gallery*/
+#gallery{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   margin-left: 100px;
+   margin-right: 100px;
+
+ }
+ #gallery img{
+  object-fit:cover;
+  width:100%;
+}
+#pic1{
+    grid-column-start: 1;
+    grid-row-start: span 2;
+}
+#pic3{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+#pic4{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-start: span 3;
+    margin-top: -15px;
+}
+#pic9{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+#pic7{
+    grid-column-start: 2;
+}
+#pic8{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    margin-top: -65px;
+}
+
+#pic5{
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+#pic6{
+    grid-column-start: 2;
+    grid-row-start: 6;
+   margin-top: -6px;
+}
+
+/* Home page body*/
+body{
+  background-color: white;
+  color: black;
+}
+h1{
+  font-family: "Comfortaa";
+  color: black;
+  text-align: center;
+  font-size: 72px;
+  margin-bottom: 30px;
+}
+h2{
+  font-size: 64px;
+}
